@@ -1,0 +1,26 @@
+{
+    "type": "Catalog",
+    "id": "Bev_catalog",
+    "stac_version": "1.1.0",
+    "description": "A bev STAC catalog",
+    "links": [
+        {
+            "rel": "root",
+            "href": "http://localhost:8000",
+            "type": "application/json",
+            "title": "Bev Catalog"
+        },
+        {
+            "rel": "self",
+            "href": "http://localhost:8000",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "http://localhost:8000/catalog/collection.json",
+            "type": "application/json",
+            "title": "collection title"
+        }
+    ],
+    "title": "Bev Catalog"
+}

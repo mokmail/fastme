@@ -1,0 +1,61 @@
+{
+    "type": "Collection",
+    "id": "catalog",
+    "stac_version": "1.1.0",
+    "description": "This is a collection of images from Bev",
+    "links": [
+        {
+            "rel": "root",
+            "href": "http://localhost:8000/collection",
+            "type": "application/json",
+            "title": "collection title"
+        },
+        {
+            "rel": "self",
+            "href": "http://localhost:8000/collection",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "http://localhost:8000/collection/km50_mit_Relief_1440_2_20250710/km50_mit_Relief_1440_2_20250710.json",
+            "type": "application/geo+json"
+        },
+        {
+            "rel": "item",
+            "href": "http://localhost:8000/collection/km50_mit_Relief_1330_2_20250505/km50_mit_Relief_1330_2_20250505.json",
+            "type": "application/geo+json"
+        },
+        {
+            "rel": "item",
+            "href": "http://localhost:8000/collection/2024470_Mosaik_RGB/2024470_Mosaik_RGB.json",
+            "type": "application/geo+json"
+        },
+        {
+            "rel": "item",
+            "href": "http://localhost:8000/collection/DGM_R500/DGM_R500.json",
+            "type": "application/geo+json"
+        }
+    ],
+    "title": "collection title",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    9.20874,
+                    46.07995,
+                    17.45621,
+                    49.22912
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2020-01-01T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "other"
+}
